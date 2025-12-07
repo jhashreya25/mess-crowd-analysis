@@ -35,21 +35,17 @@ Stress_Level	Academic stress index
 (As defined in the problem PDF) 
 
 - Project Structure
-notebook/
-    mess_crowd_analysis.ipynb
 
-data/
-    dataset.csv
-
-report/
-    analysis_report.pdf
-    key_graphs/
-
-video/
-    explanation_video_link.txt
-
-README.md
-requirements.txt
+    mess-crowd-analysis/
+├── dataset.csv                → Input data  
+├── mess_analysis.py          → Main script  
+├── graphs/                   → Visual outputs  
+│   ├── correlation_heatmap.png  
+│   ├── holiday_vs_crowd.png  
+│   └── crowd_over_time.png  
+├──Report/
+|   ├── report.pptx   → Final report
+    ├──video explanation
 
  -Approach
  1. Data Cleaning
